@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <!-- header -->
+
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block " style="background-color: black;" id="mySidebar">
+
+        <div class="row">
+            <div>
+                <!-- <button  class="w3-bar-item w3-large" style="color: black; background-color: transparent;">Close </button> -->
+                <img src="images/logo.png" alt="">
+
+            </div>
+
+            <div style="font-size: 20px; cursor: pointer;" onclick="w3_close()" >
+                &times;
+            </div>
+        </div>
+
+        <div style="padding-top: 10%; font-size: 20px;">
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#products" class="w3-bar-item w3-button">Products</a>
+            <a href="#reviews" class="w3-bar-item w3-button">Reviews</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+
+
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook w3-bar-item w3-button "> <span>Follow Us </span></i>
+            <i class="fa-brands fa-youtube w3-bar-item w3-button "> <span>Follow Us </span></i>
+            <i class="fa-brands fa-instagram w3-bar-item w3-button "> <span>Follow Us </span></i>
+
+            <!-- <i class="fa-brands fa-facebook-f"></i> -->
+
+
+        </div>
+    </div>
+    <!-- Sidebar -->
+
+
+    <div class="navbar" id="navbar">
+
+        <div class="logo" onclick="window.location.href='#home'">
+            <img src="images/logo.png" alt="">
+
+        </div>
+
+        <ul>
+            <li onclick="window.location.href='#about'">About</li>
+            <li onclick="window.location.href='#products'">Products</li>
+            <li onclick="window.location.href='#reviews'">Reviews</li>
+            <li onclick="window.location.href='#contact'">Contact</li>
+
+        </ul>
+        <div class="but">
+
+            <div class="cart-wish">
+                <i class="fa fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div>
+                <button>Sign in</button>
+
+            </div>
+
+            <div class="icon" onclick="w3_open()">
+                <!-- <i class="fa fa-bars "></i> -->
+                <img src="images/menu (2).png" alt="">
+
+            </div>
+
+            
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- header -->
+
+
+
+    <!-- Home -->
+
+
+    <div class="home header-info" id="home">
+        <div class="row">
+            <div class="part2">
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+
+
+                </div>
+                <div class="content">
+                    <span>#coffe for hot days</span>
+
+                    <h1>- Cold Brew</h1>
+
+                    <p>Boots your productivity and build your mood with a glass of coffe in the morning.Coffe has a
+                        simulating effect.</p>
+
+                    <div class="order">
+                        <div>
+                            <button>Order Now</button>
+
+                        </div>
+
+                        <div class="price">
+                            <h3>$16.80</h3>
+                            <p class="line">|</p>
+
+                            <p class="Regular">Regular Price</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="part3">
+                <img src="images/hero.png" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="scroll" onclick="window.location.href='#about'">
+            <div class="content">
+                <img src="images/mouse.png" alt="">
+                <p>Scroll Down</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Home -->
+
+
+
+    <!-- info -->
+
+
+    <div class="info">
+        <div class="row">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-regular fa-clock fa-2x"></i>
+                </div>
+
+                <div class="content">
+                    <h2>11:00 am - 8:00 pm</h2>
+                    <p>Working Hours</p>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot fa-2x"></i>
+                </div>
+
+                <div class="content">
+                    <h2>Coffee Location</h2>
+                    <p>Get Direction</p>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-phone fa-2x"></i>
+
+                </div>
+
+                <div class="content">
+                    <h2>+20 1122000901</h2>
+                    <p>Call Us Now</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- info -->
+
+
+
+
+    <!-- About -->
+
+    <div class="home about" id="about">
+        <div class="row" >
+
+
+            <div class="part2 about-info">
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+
+
+                </div>
+                <div class="content" >
+                    <span dir="ltr">#coffe for hot days</span>
+
+                    <h1 dir="ltr">- Cold Brew</h1>
+
+                    <p dir="ltr">Boots your productivity and build your mood with a glass of coffe in the morning.Coffe has a
+                        simulating effect.</p>
+
+                    <div class="order">
+                        <div dir="ltr">
+                            <button>Explore Story --> </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="part3 img-info">
+                <img src="images/cool coffe.png" class='hero1' alt="">
+
+            </div>
+
+          
+        </div>
+
+
+   
+    </div>
+
+
+    <!-- About -->
+
+
+
+
+
+    <!-- shope -->
+
+    <div class="shop" id="products">
+
+        <div class="title">
+            <h3>Our Shop</h3>
+            <h1>Lets Check Popular Products</h1>
+        </div>
+    
+        <div class="info1">
+    
+            <div class="row1 shop-row">
+                <div class="card">
+                    <div class="icon-img">
+                        <i class="fa fa-heart fa-2x"></i>
+                        <img src="images/coffee.png"  alt="">
+                    </div>
+
+    
+                    <div class="content">
+                        <h4>Bluberry Hony coffee</h4>
+                        <p>it is long established fact that a reader</p>
+    
+                        <div class="price-order">
+                            <div class="price">
+                                <h3>$21.00</h3>
+    
+                            </div>
+    
+                            <div class="order">
+                                <button>Order Now --></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="icon-img">
+                        <i class="fa fa-heart fa-2x"></i>
+                        <img src="images/coffee.png"  alt="">
+                    </div>
+    
+                    <div class="content">
+                        <h4>Bluberry Hony coffee</h4>
+                        <p>it is long established fact that a reader</p>
+    
+                        <div class="price-order">
+                            <div class="price">
+                                <h3>$21.00</h3>
+    
+                            </div>
+    
+                            <div class="order">
+                                <button>Order Now --></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="icon-img">
+                        <i class="fa fa-heart fa-2x"></i>
+                        <img src="images/coffee.png"  alt="">
+                    </div>
+    
+                    <div class="content">
+                        <h4>Bluberry Hony coffee</h4>
+                        <p>it is long established fact that a reader</p>
+    
+                        <div class="price-order">
+                            <div class="price">
+                                <h3>$21.00</h3>
+    
+                            </div>
+    
+                            <div class="order">
+                                <button>Order Now --></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="icon-img">
+                        <i class="fa fa-heart fa-2x"></i>
+                        <img src="images/coffee.png"  alt="">
+                    </div>
+    
+                    <div class="content">
+                        <h4>Bluberry Hony coffee</h4>
+                        <p>it is long established fact that a reader</p>
+    
+                        <div class="price-order">
+                            <div class="price">
+                                <h3>$21.00</h3>
+    
+                            </div>
+    
+                            <div class="order">
+                                <button>Order Now --></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- shope -->
+
+
+    <!-- review -->
+
+    <div class="shop reviews" id="reviews">
+
+        <div class="title">
+            <h3>Our Customers</h3>
+            <h1>Clients Review About Our Coffee</h1>
+        </div>
+    
+        <div class="info1">
+    
+            <div class="row1 row2 ">
+                <div class="card card-review">
+                
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo explicabo omnis sunt, repellendus,
+                             libero vitae animi commodi odio voluptates eius ipsum, rerum rem velit repudiandae! Doloribus possimus maxime at laudantium!</p>
+    
+                             <div class="price-order1">
+                                <div class="order">
+                                    <img src="images/hero.png" alt="">
+                                </div>
+                                <div class="price1">
+                                    <h3>Mohamed Soliman</h3>
+                                    <p>customer</p>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star" style="color: gray;"></i>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+    
+                <div class="card card-review">
+                
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo explicabo omnis sunt, repellendus,
+                             libero vitae animi commodi odio voluptates eius ipsum, rerum rem velit repudiandae! Doloribus possimus maxime at laudantium!</p>
+    
+                             <div class="price-order1">
+                                <div class="order">
+                                    <img src="images/hero.png" alt="">
+                                </div>
+                                <div class="price1">
+                                    <h3>Mohamed Soliman</h3>
+                                    <p>customer</p>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+    
+                <div class="card card-review">
+                
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo explicabo omnis sunt, repellendus,
+                             libero vitae animi commodi odio voluptates eius ipsum, rerum rem velit repudiandae! Doloribus possimus maxime at laudantium!</p>
+    
+                             <div class="price-order1">
+                                <div class="order">
+                                    <img src="images/hero.png" alt="">
+                                </div>
+                                <div class="price1">
+                                    <h3>Mohamed Soliman</h3>
+                                    <p>customer</p>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star" style="color: gray;"></i>
+                                        <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+    
+                <div class="card card-review">
+                
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo explicabo omnis sunt, repellendus,
+                             libero vitae animi commodi odio voluptates eius ipsum, rerum rem velit repudiandae! Doloribus possimus maxime at laudantium!</p>
+    
+                             <div class="price-order1">
+                                <div class="order">
+                                    <img src="images/hero.png" alt="">
+                                </div>
+                                <div class="price1">
+                                    <h3>Mohamed Soliman</h3>
+                                    <p>customer</p>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- review -->
+
+
+    <button class="button-up">  <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- Footer  -->
+
+    <div class="footer" id="contact">
+        <div class="row">
+            <div class="left">
+                <img src="images/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                     atque necessitatibus. Aliquam amet odit totam maiores, officia, illum labore alias sint, omnis debitis fugit aliquid quod consectetur laborum! Esse, necessitatibus.</p>
+            </div>
+    
+            <div class="middle">
+                <h2>Get In Touch</h2>
+    
+                <p>Address: 2005 Stokes isle apt. coffee center , Egypt</p>
+                <p>Email: info@gmail.com</p>
+                <p>phone: +201122000901</p>
+                
+    
+            </div>
+    
+            <div class="right">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur eos mollitia voluptatum, magnam, 
+                    ipsa ut corporis laudantium sed doloremque, itaque soluta ad vel dicta possimus nulla vitae! Ex, voluptate.</p>
+    
+                    <div class="form" >
+                        <div class="inp">
+                            <input type="email" placeholder="Email Address.." name="" id="">
+                        </div>
+                        <div class="button">
+                            <button type="submit">   <i class="fa-solid fa-paper-plane" style="color: whitesmoke;"></i>   </button>
+                        </div>
+                    </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <footer >
+        <div class="content">
+            <h1>&copy; 2024 Soliman. All rights reserved.
+            </h1>
+        </div>
+    </footer>
+    
+    <!-- Footer  -->
+
+
+
+
+<script src="index.js"></script>
+</body>
+
+</html>

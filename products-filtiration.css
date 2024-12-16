@@ -1,0 +1,73 @@
+.products-filtiration {
+    display: flex;
+    gap: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    color: var(--text-color);
+}
+
+.products-filtiration .filter-bar {
+    flex-basis: 20%; /* Set the width of the filter bar to 20% */
+    align-self: flex-start; /* Ensure the filter bar specifically aligns at the top */
+    text-align: left; /* Align text to the left */
+    width: 100%;
+    height: auto; /* Allow the height to adjust to the content */
+    box-sizing: border-box;
+    padding: 5% 0;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.shop {
+    margin-top: 0 !important;
+    flex-basis: 70%; /* Set the width of the shop section to 70% */
+}
+
+
+
+.products-filtiration .filter-bar .row{
+    padding-top: 3%;
+
+}
+.products-filtiration .filter-bar .row label{
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 1%;
+
+
+}
+
+
+
+
+.btns button{
+    padding: 5px 20px;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.filter-bar .row select{
+    width: 100%;
+    background: var(--coffee-color) !important;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    padding: 5px 20px;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+

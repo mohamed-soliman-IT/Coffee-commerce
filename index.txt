@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=EU2xgn350EM
+
+
+
+400
+    .home .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    
+    
+    }
+
+
+
+.home .row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+
+
+}
